@@ -8,7 +8,7 @@ import lombok.Data;
 @Data
 public class SignupRequest {
     @NotBlank
-    @Size(min = 3, max = 20)
+    @Size(min = 3, max =  20)
     private String username;
 
     @NotBlank
