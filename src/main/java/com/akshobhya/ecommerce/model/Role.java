@@ -11,6 +11,7 @@ import lombok.ToString;
 @AllArgsConstructor
 @Data
 @Table(name = "roles")
+    
 public class Role {
 
     @Id
