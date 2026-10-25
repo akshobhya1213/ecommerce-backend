@@ -1,4 +1,4 @@
-# 🛒 Secure E-commerce Backend System
+# 🛒 Secure E-commerce Backend System -- 1 
 
 A RESTful backend built with Java, Spring Boot, JWT, JPA/Hibernate and MySQL.
 
