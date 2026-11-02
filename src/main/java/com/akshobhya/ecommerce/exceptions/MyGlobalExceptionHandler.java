@@ -1,4 +1,4 @@
-package com.akshobhya.ecommerce.exceptions;
+spackage com.akshobhya.ecommerce.exceptions;
 
 
 import com.akshobhya.ecommerce.payload.APIResponse;
