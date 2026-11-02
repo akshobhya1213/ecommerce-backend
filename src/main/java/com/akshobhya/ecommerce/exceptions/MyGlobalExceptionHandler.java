@@ -1,4 +1,4 @@
-spackage com.akshobhya.ecommerce.exceptions;
+package com.akshobhya.ecommerce.exceptions;
 
 
 import com.akshobhya.ecommerce.payload.APIResponse;
@@ -24,6 +24,7 @@ public class MyGlobalExceptionHandler {
         });
         return new ResponseEntity<Map<String, String>>(response, HttpStatus.BAD_REQUEST);
     }
+    
 
     @ExceptionHandler(ResourceNotFoundException.class)
     public ResponseEntity<APIResponse> myResourceNotFoundException(ResourceNotFoundException e) {
